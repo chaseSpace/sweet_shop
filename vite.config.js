@@ -7,11 +7,10 @@ import { devHtmlTransformer, prodHtmlTransformer } from '@meituan-nocode/vite-pl
 import react from '@vitejs/plugin-react';
 
 const isProdEnv = process.env.NODE_ENV === 'production';
-const PUBLIC_PATH = isProdEnv ? process.env.PUBLIC_PATH + '/' + process.env.CHAT_VARIABLE : process.env.PUBLIC_PATH;
-const OUT_DIR = isProdEnv ? 'build/' + process.env.CHAT_VARIABLE : 'build';
+const PUBLIC_PATH = isProdEnv ? (process.env.PUBLIC_PATH || '/') + (process.env.CHAT_VARIABLE ? '/' + process.env.CHAT_VARIABLE : '') : (process.env.PUBLIC_PATH || '/');
+const OUT_DIR = 'dist';
 const PLUGINS = isProdEnv ? [
-  react(),
-  prodHtmlTransformer(process.env.CHAT_VARIABLE)
+  react()
 ] : [
   devLogger({
     dirname: resolve(tmpdir(), '.nocode-dev-logs'),
@@ -35,7 +34,7 @@ export default defineConfig({
   ],
   base: PUBLIC_PATH,
   build: {
-    outDir: OUT_DIR
+    outDir: resolve(__dirname, OUT_DIR)
   },
   resolve: {
     alias: [
