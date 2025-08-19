@@ -14,19 +14,19 @@ const Index = () => {
   const slides = [
     {
       id: 1,
-      image: "https://nocode.meituan.com/photo/search?keyword=糖水,红糖汤圆&width=1920&height=1080",
+      image: "file/banner/slide-1.jpg",
       title: "一碗匠心，一份甜蜜",
       description: "传承古法，创新口味"
     },
     {
       id: 2,
-      image: "https://nocode.meituan.com/photo/search?keyword=糖水,椰奶汤圆&width=1920&height=1080",
+      image: "file/banner/slide-2.jpg",
       title: "精选食材，手工制作",
       description: "无添加，更健康"
     },
     {
       id: 3,
-      image: "https://nocode.meituan.com/photo/search?keyword=糖水,店铺环境&width=1920&height=1080",
+      image: "file/banner/slide-3.jpg",
       title: "温馨环境，舒适体验",
       description: "享受悠闲时光"
     }
@@ -38,25 +38,25 @@ const Index = () => {
       id: 1,
       name: "红糖汤圆",
       description: "手工搓制，暖心暖胃",
-      image: "https://nocode.meituan.com/photo/search?keyword=红糖汤圆&width=600&height=600"
+      image: "file/products/product1.jpg"
     },
     {
       id: 2,
       name: "椰奶汤圆",
       description: "椰香浓郁，口感丝滑",
-      image: "https://nocode.meituan.com/photo/search?keyword=椰奶汤圆&width=600&height=600"
+      image: "file/products/product2.jpg"
     },
     {
       id: 3,
       name: "酒酿汤圆",
       description: "传统发酵，香甜可口",
-      image: "https://nocode.meituan.com/photo/search?keyword=酒酿汤圆&width=600&height=600"
+      image: "file/products/product3.jpg"
     },
     {
       id: 4,
       name: "红豆沙汤圆",
       description: "细腻红豆，甜蜜滋味",
-      image: "https://nocode.meituan.com/photo/search?keyword=红豆沙汤圆&width=600&height=600"
+      image: "file/products/product4.jpg"
     }
   ];
 
@@ -284,7 +284,7 @@ const Index = () => {
             >
               <div className="h-80 overflow-hidden">
                 <img 
-                  src="https://nocode.meituan.com/photo/search?keyword=糖水店,堂食环境&width=600&height=400" 
+                  src="file/env/dining.jpg" 
                   alt="温馨堂食区" 
                   className="w-full h-full mx-auto object-cover"
                 />
@@ -306,7 +306,7 @@ const Index = () => {
             >
               <div className="h-80 overflow-hidden">
                 <img 
-                  src="https://nocode.meituan.com/photo/search?keyword=糖水店,制作区&width=600&height=400" 
+                  src="file/env/kitchen.jpg" 
                   alt="透明制作区" 
                   className="w-full h-full mx-auto object-cover"
                 />

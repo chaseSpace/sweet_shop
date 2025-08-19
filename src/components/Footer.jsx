@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-amber-800 mt-8 pt-8 text-center">
-          <p>&copy; 2023 续甜糖水铺. 保留所有权利.</p>
+          <p>&copy; 2025 续甜糖水铺. 保留所有权利.</p>
         </div>
       </div>
     </footer>

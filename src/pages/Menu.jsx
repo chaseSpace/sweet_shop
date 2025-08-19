@@ -14,25 +14,25 @@ const Menu = () => {
           id: 1,
           name: "红糖汤圆",
           description: "传统手工制作，老红糖熬制，温暖滋补",
-          image: "https://nocode.meituan.com/photo/search?keyword=红糖汤圆&width=600&height=600"
+          image: "file/menu/classic/1-红糖汤圆.jpg"
         },
         {
           id: 2,
           name: "椰奶汤圆",
           description: "椰香浓郁，口感丝滑，夏日必备",
-          image: "https://nocode.meituan.com/photo/search?keyword=椰奶汤圆&width=600&height=600"
+          image: "file/menu/classic/2-椰奶汤圆.jpg"
         },
         {
           id: 3,
           name: "酒酿汤圆",
           description: "传统发酵酒酿，香甜可口，营养丰富",
-          image: "https://nocode.meituan.com/photo/search?keyword=酒酿汤圆&width=600&height=600"
+          image: "file/menu/classic/3-酒酿汤圆.jpg"
         },
         {
           id: 4,
           name: "红豆沙汤圆",
           description: "细腻红豆沙，甜而不腻，经典之选",
-          image: "https://nocode.meituan.com/photo/search?keyword=红豆沙汤圆&width=600&height=600"
+          image: "file/menu/classic/4-红豆沙汤圆.jpg"
         }
       ]
     },
@@ -43,25 +43,25 @@ const Menu = () => {
           id: 5,
           name: "芝麻汤圆",
           description: "黑芝麻研磨，香浓可口，营养丰富",
-          image: "https://nocode.meituan.com/photo/search?keyword=芝麻汤圆&width=600&height=600"
+          image: "file/menu/innovative/5-芝麻汤圆.jpg"
         },
         {
           id: 6,
           name: "花生汤圆",
           description: "香脆花生碎，口感丰富，回味无穷",
-          image: "https://nocode.meituan.com/photo/search?keyword=花生汤圆&width=600&height=600"
+          image: "file/menu/innovative/6-花生汤圆.jpg"
         },
         {
           id: 7,
           name: "紫薯汤圆",
           description: "天然紫薯，健康美味，颜值与口感并存",
-          image: "https://nocode.meituan.com/photo/search?keyword=紫薯汤圆&width=600&height=600"
+          image: "file/menu/innovative/7-紫薯汤圆.jpg"
         },
         {
           id: 8,
           name: "抹茶汤圆",
           description: "日式抹茶，清香淡雅，别具一格",
-          image: "https://nocode.meituan.com/photo/search?keyword=抹茶汤圆&width=600&height=600"
+          image: "file/menu/innovative/8-抹茶汤圆.jpg"
         }
       ]
     },
@@ -72,19 +72,19 @@ const Menu = () => {
           id: 9,
           name: "银耳莲子汤",
           description: "滋阴润燥，美容养颜，女士最爱",
-          image: "https://nocode.meituan.com/photo/search?keyword=银耳莲子汤&width=600&height=600"
+          image: "file/menu/health/9-银耳莲子汤.jpg"
         },
         {
           id: 10,
           name: "红枣桂圆汤",
           description: "补气养血，温暖身心，冬日必备",
-          image: "https://nocode.meituan.com/photo/search?keyword=红枣桂圆汤&width=600&height=600"
+          image: "file/menu/health/10-红枣桂圆汤.jpg"
         },
         {
           id: 11,
           name: "百合雪梨汤",
           description: "清热润肺，止咳化痰，秋季佳品",
-          image: "https://nocode.meituan.com/photo/search?keyword=百合雪梨汤&width=600&height=600"
+          image: "file/menu/health/11-百合雪梨汤.jpg"
         }
       ]
     }
