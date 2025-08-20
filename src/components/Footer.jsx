@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">续甜糖水铺</h3>
+            <h3 className="text-xl font-bold mb-4">续甜手作糖水铺</h3>
             <p className="mb-2">地址：某市某区某路123号</p>
             <p className="mb-2">营业时间：10:00 - 22:00</p>
             <p>电话：138-0000-0000</p>
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-amber-800 mt-8 pt-8 text-center">
-          <p>&copy; 2025 续甜糖水铺. 保留所有权利.</p>
+          <p>&copy; 2025 续甜手作糖水铺. 保留所有权利.</p>
         </div>
       </div>
     </footer>
