@@ -157,7 +157,7 @@ const Index = () => {
                           ? 'bg-amber-600 hover:bg-amber-700 text-white' 
                           : 'bg-white text-amber-600 hover:bg-amber-100'
                       }`}
-                      onClick={() => scrollToSection('contact')}
+                      onClick={() => scrollToSection('footer')}
                     >
                       联系预订
                     </Button>
