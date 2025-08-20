@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -36,16 +36,26 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">关注我们</h3>
             <p className="mb-4">在社交媒体上关注我们，获取最新优惠信息</p>
-            <div>
-              <a 
-                href="https://www.xiaohongshu.com" 
-                target="_blank" 
+            <div className="flex space-x-4">
+              <a
+                href="https://www.xiaohongshu.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-100 hover:text-amber-300 transition-colors"
                 aria-label="小红书"
               >
                 <BookOpen className="w-6 h-6" />
               </a>
+              <div className="relative group">
+                <MessageCircle className="w-6 h-6 text-amber-100 hover:text-amber-300 transition-colors cursor-pointer" aria-label="微信" />
+                <div className="absolute hidden group-hover:block bottom-full left-1/2 transform -translate-x-1/2 mb-2 p-2 bg-white rounded-lg shadow-lg z-10 flex items-center justify-center" style={{ width: '140px', height: '140px' }}>
+                  <img 
+                    src="/social/wechat_qrcode.jpg"
+                    alt="微信二维码" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

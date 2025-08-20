@@ -46,7 +46,7 @@ This starts the Vite development server with hot module replacement.
 npm run build
 ```
 
-This creates a production build in the `build` directory.
+This creates a production build in the `dist` directory.
 
 ### Linting
 
@@ -81,8 +81,7 @@ Navigation is handled through:
 
 ## Image Handling
 
-Images are loaded from external URLs using the Meituan image service. All image URLs follow the pattern:
-`https://nocode.meituan.com/photo/search?keyword={keyword}&width={width}&height={height}`
+Images are loaded from the public directory with paths like `/banner/slide-1.jpg`.
 
 ## Key Features
 
