@@ -22,9 +22,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">续甜手作糖水铺</h3>
-            <p className="mb-2">地址：某市某区某路123号</p>
-            <p className="mb-2">营业时间：10:00 - 22:00</p>
-            <p>电话：138-0000-0000</p>
+            <p className="mb-2">地址：重庆市南岸区腾龙大道21号附142号</p>
+            <p className="mb-2">营业时间：14:00 - 24:00</p>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">快速链接</h3>
@@ -38,7 +37,7 @@ const Footer = () => {
             <p className="mb-4">在社交媒体上关注我们，获取最新优惠信息</p>
             <div className="flex space-x-4">
               <a
-                href="https://www.xiaohongshu.com"
+                href="https://www.xiaohongshu.com/user/profile/654d19bd0000000002035899"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-100 hover:text-amber-300 transition-colors"
@@ -48,7 +47,7 @@ const Footer = () => {
               </a>
               <div className="relative group">
                 <MessageCircle className="w-6 h-6 text-amber-100 hover:text-amber-300 transition-colors cursor-pointer" aria-label="微信" />
-                <div className="absolute hidden group-hover:block bottom-full left-1/2 transform -translate-x-1/2 mb-2 p-2 bg-white rounded-lg shadow-lg z-10 flex items-center justify-center" style={{ width: '140px', height: '140px' }}>
+                <div className="absolute hidden group-hover:block bottom-full left-1/2 transform -translate-x-1/2 mb-2 p-2 bg-white rounded-lg shadow-lg z-10 flex items-center justify-center" style={{ width: '180px', height: '180px' }}>
                   <img 
                     src="/social/wechat_qrcode.jpg"
                     alt="微信二维码" 

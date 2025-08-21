@@ -36,26 +36,26 @@ const Index = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "红糖汤圆",
-      description: "手工搓制，暖心暖胃",
+      name: "招牌红糖冰汤圆",
+      description: "手工红糖，冰爽解暑",
       image: "/products/product1.jpg"
     },
     {
       id: 2,
-      name: "椰奶汤圆",
-      description: "椰香浓郁，口感丝滑",
+      name: "续甜大满贯",
+      description: "桃胶仙草，丰富配料",
       image: "/products/product2.jpg"
     },
     {
       id: 3,
-      name: "酒酿汤圆",
-      description: "传统发酵，香甜可口",
+      name: "芒果白雪黑糯米",
+      description: "香甜芒果，传统风味",
       image: "/products/product3.jpg"
     },
     {
       id: 4,
-      name: "红豆沙汤圆",
-      description: "细腻红豆，甜蜜滋味",
+      name: "西瓜椰椰冰汤圆",
+      description: "清爽西瓜，甜蜜滋味",
       image: "/products/product4.jpg"
     }
   ];
@@ -148,7 +148,7 @@ const Index = () => {
                       }`}
                       onClick={() => scrollToSection('menu')}
                     >
-                      查看菜单
+                      查看招牌
                     </Button>
                     <Button 
                       size="lg" 
@@ -223,12 +223,12 @@ const Index = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button 
+          <Button
             size="lg" 
             className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-6 text-lg"
-            onClick={() => navigate('/menu')}
+            onClick={() => navigate('/menu-pdf')}
           >
-            更多美味
+            查看全部菜单
           </Button>
         </div>
       </section>

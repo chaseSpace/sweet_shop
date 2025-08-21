@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { navItems } from "./nav-items";
 import Menu from "./pages/Menu";
+import MenuPdf from "./pages/MenuPdf";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={navItems[0].page} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/menu-pdf" element={<MenuPdf />} />
           <Route path="/#about" element={navItems[0].page} />
           <Route path="/#contact" element={navItems[0].page} />
           <Route path="*" element={<Navigate to="/" replace />} />
